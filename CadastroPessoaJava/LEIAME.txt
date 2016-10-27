@@ -1,0 +1,1 @@
+Pequeno programa desenvolvido em sala de aula na matéria de Paradigmas de linguagem de programação, para uma pequena apresentação de como funciona o paradigma de orientação a objetos em Java. Foi utilizada a IDE NetBeans. Possuia uma versão mais completa desse mesmo trabalho utilizando banco de dados, porém a perdi.
