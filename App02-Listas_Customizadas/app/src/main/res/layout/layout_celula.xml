@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="117dp"
+        android:layout_height="94dp"
+        app:srcCompat="@drawable/bugatti"
+        android:id="@+id/ivImagem"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNomeCarro"
+        android:layout_marginLeft="58dp"
+        android:layout_marginStart="58dp"
+        android:textSize="8pt"
+        android:layout_alignBottom="@+id/ivImagem"
+        android:layout_toRightOf="@+id/ivImagem"
+        android:layout_toEndOf="@+id/ivImagem"
+        android:layout_marginBottom="12dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvMarcaCarro"
+        android:textSize="10pt"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/tvNomeCarro"
+        android:layout_alignStart="@+id/tvNomeCarro"
+        android:layout_marginTop="13dp" />
+
+
+</RelativeLayout>
