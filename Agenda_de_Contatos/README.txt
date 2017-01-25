@@ -1,0 +1,1 @@
+Aplicativo criado no curso de Android M feito na Udemy. Agenda de contatos, ela armazena dados do contato incluindo foto, pode enviar sms, fazer ligação, ir para o site do contato, apagar e editar contato, tambem reconhece a ligação recebida de algum contato cadastrado ou mensagem.
