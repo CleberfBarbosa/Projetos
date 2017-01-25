@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="122dp"
+        android:layout_height="122dp"
+        app:srcCompat="@drawable/person"
+        android:id="@+id/ivCelulaFoto" />
+
+    <FrameLayout android:layout_height="121dp"
+        android:layout_width="40dp">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="138dp">
+
+        <TextView
+            android:text="Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCelulaNome"
+            android:textSize="10pt"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:text="+55 00 00000-0000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCelulaTelefone"
+            android:textSize="9pt"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:text="www.android.com.br"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCelulaSite"
+            android:textSize="8pt"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:text="android@android.com.br"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCelulaEmail"
+            android:textSize="8pt"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:text="Rua Android qd.42 lt 42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCelulaEnd"
+            android:textSize="8pt"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_height="122dp"
+        app:srcCompat="@drawable/person"
+        android:id="@+id/ivCelulaFoto"
+        android:layout_weight="0.04"
+        android:layout_width="122dp" />
+
+    <FrameLayout android:layout_height="124dp"
+        android:layout_width="28dp">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="122dp">
+
+        <TextView
+            android:text="Nome"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCelulaNome"
+            android:textSize="9pt"
+            android:textColor="#000000"
+            android:layout_weight="0.04"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="21dp"
+            android:layout_width="220dp" />
+
+        <TextView
+            android:text="+55 00 00000-0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCelulaTelefone"
+            android:textSize="7pt"
+            android:textColor="#000000"
+            android:layout_weight="0.04"
+            android:layout_marginBottom="22dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>
